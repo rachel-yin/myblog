@@ -3,11 +3,11 @@
   <title>山雨</title>
   <icon>https://www.gravatar.com/avatar/1a3649cd63d7fb33ce6ae5837c507f56</icon>
   <subtitle>于万人中万幸得以相逢</subtitle>
-  <link href="http://rachel-yin.github.io/atom.xml" rel="self"/>
+  <link href="https://www.lyfshanyu.xyz/atom.xml" rel="self"/>
   
-  <link href="http://rachel-yin.github.io/"/>
+  <link href="https://www.lyfshanyu.xyz/"/>
   <updated>2022-09-03T08:13:17.874Z</updated>
-  <id>http://rachel-yin.github.io/</id>
+  <id>https://www.lyfshanyu.xyz/</id>
   
   <author>
     <name>山雨</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://rachel-yin.github.io/undefined/undefined.html"/>
-    <id>http://rachel-yin.github.io/undefined/undefined.html</id>
+    <link href="https://www.lyfshanyu.xyz/undefined/undefined.html"/>
+    <id>https://www.lyfshanyu.xyz/undefined/undefined.html</id>
     <published>2022-09-03T08:13:17.874Z</published>
     <updated>2022-09-03T08:13:17.874Z</updated>
     
