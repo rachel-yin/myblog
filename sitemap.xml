@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/undefined/7a6a6b5a.html</loc>
+    <loc>http://example.com/manifest.json</loc>
     
-    <lastmod>2022-09-09</lastmod>
+    <lastmod>2022-09-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
