@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>山雨</title>
   <icon>https://www.gravatar.com/avatar/1a3649cd63d7fb33ce6ae5837c507f56</icon>
-  <subtitle>好累，想摸鱼ヽ(*。&gt;Д&lt;)o゜</subtitle>
+  <subtitle>好累！想摸鱼ヽ(*。&gt;Д&lt;)o゜</subtitle>
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-09-08T14:45:54.749Z</updated>
+  <updated>2022-09-14T14:05:36.218Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,22 +17,47 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://example.com/undefined/4a17b156.html"/>
-    <id>http://example.com/undefined/4a17b156.html</id>
-    <published>2022-09-03T08:13:17.874Z</published>
-    <updated>2022-09-08T14:45:54.749Z</updated>
+    <title>测试文章背景</title>
+    <link href="http://example.com/undefined/1f934f99.html"/>
+    <id>http://example.com/undefined/1f934f99.html</id>
+    <published>2022-09-14T12:46:28.000Z</published>
+    <updated>2022-09-14T14:05:36.218Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>  这是一个测试博客独立背景配置的文件</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+    <summary type="html">&lt;p&gt;  这是一个测试博客独立背景配置的文件&lt;/p&gt;
+</summary>
       
     
     
     
+    
+    <category term="butterfly魔改记录" scheme="http://example.com/tags/butterfly%E9%AD%94%E6%94%B9%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>action自动部署</title>
+    <link href="http://example.com/undefined/a1e6876a.html"/>
+    <id>http://example.com/undefined/a1e6876a.html</id>
+    <published>2022-09-13T11:42:31.000Z</published>
+    <updated>2022-09-14T14:11:19.857Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="自动部署以及typora常用写作语法"><a href="#自动部署以及typora常用写作语法" class="headerlink" title="自动部署以及typora常用写作语法"></a>自动部署以及typora常用写作语法</h1><h2 id="1-利用github-action实现更新博客"><a href="#1-利用github-action实现更新博客" class="headerlink" title="1.利用github action实现更新博客"></a>1.利用github action实现更新博客</h2><p>   由于随着hexo框架下的博客文件越来越大，利用hexo clean/g/d三步代码会使得上传至服务器越来越慢，利用github action对博客进行处理后相对简便，下为git bush 下对博客进行更新的代码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m &quot;更新内容&quot;</span><br><span class="line">git push origin main #由于github的仓库主branch改成了main</span><br></pre></td></tr></table></figure><h2 id="2-typora常用博客语法"><a href="#2-typora常用博客语法" class="headerlink" title="2.typora常用博客语法"></a>2.typora常用博客语法</h2><h3 id="1-插入图片"><a href="#1-插入图片" class="headerlink" title="1.插入图片"></a>1.插入图片</h3><p>格式-&gt;图像-&gt;设置图片根目录-&gt;选取<strong>source</strong>作为根目录</p><p><img src="/imgs/image-20220913214000340.png" alt="image-20220913214000340"></p><p>利用qq截图可直接粘粘在文章中，图片文件会自动存在imgs文件夹中</p><h3 id="2-添加封面"><a href="#2-添加封面" class="headerlink" title="2.添加封面"></a>2.添加封面</h3><p>在文章顶部添加封面cover对应图片的URL链接保存提交即可</p><p><img src="/imgs/image-20220913220322196.png" alt="image-20220913220322196"></p><h3 id="3-文章顶部图"><a href="#3-文章顶部图" class="headerlink" title="3.文章顶部图"></a>3.文章顶部图</h3><p>  在文章顶部添加top-img:及其对应URL链接即可</p><p>  注意在冒号后要加一个空格，不然会报错</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;自动部署以及typora常用写作语法&quot;&gt;&lt;a href=&quot;#自动部署以及typora常用写作语法&quot; class=&quot;headerlink&quot; title=&quot;自动部署以及typora常用写作语法&quot;&gt;&lt;/a&gt;自动部署以及typora常用写作语法&lt;/h1&gt;&lt;h2 id=&quot;1</summary>
+      
+    
+    
+    
+    
+    <category term="butterfly魔改记录" scheme="http://example.com/tags/butterfly%E9%AD%94%E6%94%B9%E8%AE%B0%E5%BD%95/"/>
     
   </entry>
   
