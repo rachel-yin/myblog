@@ -11,6 +11,12 @@
         <content type="html"><![CDATA[<p>  这是一个测试博客独立背景配置的文件</p>]]></content>
       
       
+      <categories>
+          
+          <category> 测试记录 </category>
+          
+      </categories>
+      
       
         <tags>
             
@@ -29,6 +35,12 @@
       
         <content type="html"><![CDATA[<h1 id="自动部署以及typora常用写作语法"><a href="#自动部署以及typora常用写作语法" class="headerlink" title="自动部署以及typora常用写作语法"></a>自动部署以及typora常用写作语法</h1><h2 id="1-利用github-action实现更新博客"><a href="#1-利用github-action实现更新博客" class="headerlink" title="1.利用github action实现更新博客"></a>1.利用github action实现更新博客</h2><p>   由于随着hexo框架下的博客文件越来越大，利用hexo clean/g/d三步代码会使得上传至服务器越来越慢，利用github action对博客进行处理后相对简便，下为git bush 下对博客进行更新的代码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m &quot;更新内容&quot;</span><br><span class="line">git push origin main #由于github的仓库主branch改成了main</span><br></pre></td></tr></table></figure><h2 id="2-typora常用博客语法"><a href="#2-typora常用博客语法" class="headerlink" title="2.typora常用博客语法"></a>2.typora常用博客语法</h2><h3 id="1-插入图片"><a href="#1-插入图片" class="headerlink" title="1.插入图片"></a>1.插入图片</h3><p>格式-&gt;图像-&gt;设置图片根目录-&gt;选取<strong>source</strong>作为根目录</p><p><img src="/imgs/image-20220913214000340.png" alt="image-20220913214000340"></p><p>利用qq截图可直接粘粘在文章中，图片文件会自动存在imgs文件夹中</p><h3 id="2-添加封面"><a href="#2-添加封面" class="headerlink" title="2.添加封面"></a>2.添加封面</h3><p>在文章顶部添加封面cover对应图片的URL链接保存提交即可</p><p><img src="/imgs/image-20220913220322196.png" alt="image-20220913220322196"></p><h3 id="3-文章顶部图"><a href="#3-文章顶部图" class="headerlink" title="3.文章顶部图"></a>3.文章顶部图</h3><p>  在文章顶部添加top-img:及其对应URL链接即可</p><p>  注意在冒号后要加一个空格，不然会报错</p>]]></content>
       
+      
+      <categories>
+          
+          <category> buttfly魔改记录 </category>
+          
+      </categories>
       
       
         <tags>
