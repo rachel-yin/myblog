@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-10-05T08:01:28.808Z</updated>
+  <updated>2022-10-05T08:03:29.518Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://example.com/undefined/dd39fbaf.html"/>
     <id>http://example.com/undefined/dd39fbaf.html</id>
     <published>2022-09-20T22:22:51.000Z</published>
-    <updated>2022-10-05T08:01:28.808Z</updated>
+    <updated>2022-10-05T08:03:29.518Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="1-基本语法"><a href="#1-基本语法" class="headerlink" title="1.基本语法"></a>1.基本语法</h1><h2 id="1-概述"><a href="#1-概述" class="headerlink" title="1.概述"></a>1.概述</h2><p>  html标签由尖括号包括的关键词,如<code>&lt;html&gt;</code></p><p>  html标签通常成对出现， 如<code>&lt;html&gt;</code>（起始标签）、<code>&lt;/html&gt;</code>（结束标签）</p><p>  某些标签为单个标签出现（情况较少），如    <code>&lt;br/&gt;</code> 将其称为单标签</p><h2 id="2-标签关系"><a href="#2-标签关系" class="headerlink" title="2.标签关系"></a>2.标签关系</h2><p>   双标签关系分为：包含关系、并列关系</p><p>   包含关系：（父子关系）</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;head&gt;</span><br><span class="line">&lt;title&gt; &lt;/title&gt;</span><br><span class="line">&lt;/head&gt;</span><br></pre></td></tr></table></figure><p>   并列关系：(兄弟关系)</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;head&gt; &lt;/head&gt;</span><br><span class="line">&lt;body&gt; &lt;/body&gt;</span><br></pre></td></tr></table></figure><h2 id="3基本结构标签"><a href="#3基本结构标签" class="headerlink" title="3基本结构标签"></a>3基本结构标签</h2><p>   <img src="../imgs/image-20221005151919158.png" alt="image-20221005151919158"></p><p>  大致格式：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;title&gt;第一个页面&lt;/title&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">第一个页面</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure><p>1111111</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="1-基本语法"><a href="#1-基本语法" class="headerlink" title="1.基本语法"></a>1.基本语法</h1><h2 id="1-概述"><a href="#1-概述" class="headerlink" title="1.概述"></a>1.概述</h2><p>  html标签由尖括号包括的关键词,如<code>&lt;html&gt;</code></p><p>  html标签通常成对出现， 如<code>&lt;html&gt;</code>（起始标签）、<code>&lt;/html&gt;</code>（结束标签）</p><p>  某些标签为单个标签出现（情况较少），如    <code>&lt;br/&gt;</code> 将其称为单标签</p><h2 id="2-标签关系"><a href="#2-标签关系" class="headerlink" title="2.标签关系"></a>2.标签关系</h2><p>   双标签关系分为：包含关系、并列关系</p><p>   包含关系：（父子关系）</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;head&gt;</span><br><span class="line">&lt;title&gt; &lt;/title&gt;</span><br><span class="line">&lt;/head&gt;</span><br></pre></td></tr></table></figure><p>   并列关系：(兄弟关系)</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;head&gt; &lt;/head&gt;</span><br><span class="line">&lt;body&gt; &lt;/body&gt;</span><br></pre></td></tr></table></figure><h2 id="3基本结构标签"><a href="#3基本结构标签" class="headerlink" title="3基本结构标签"></a>3基本结构标签</h2><p>   <img src="../imgs/image-20221005151919158.png" alt="image-20221005151919158"></p><p>  大致格式：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;title&gt;第一个页面&lt;/title&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">第一个页面</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure><p>测试更新情况</p>]]></content>
     
     
       
@@ -43,7 +43,7 @@
     <link href="http://example.com/undefined/1f934f99.html"/>
     <id>http://example.com/undefined/1f934f99.html</id>
     <published>2022-09-14T20:46:28.000Z</published>
-    <updated>2022-10-05T08:01:28.808Z</updated>
+    <updated>2022-10-05T08:03:29.518Z</updated>
     
     <content type="html"><![CDATA[<p>  这是一个测试博客独立背景配置的文件</p>]]></content>
     
@@ -68,7 +68,7 @@
     <link href="http://example.com/undefined/a1e6876a.html"/>
     <id>http://example.com/undefined/a1e6876a.html</id>
     <published>2022-09-13T19:42:31.000Z</published>
-    <updated>2022-10-05T08:01:28.808Z</updated>
+    <updated>2022-10-05T08:03:29.518Z</updated>
     
     <content type="html"><![CDATA[<h1 id="自动部署以及typora常用写作语法"><a href="#自动部署以及typora常用写作语法" class="headerlink" title="自动部署以及typora常用写作语法"></a>自动部署以及typora常用写作语法</h1><h2 id="1-利用github-action实现更新博客"><a href="#1-利用github-action实现更新博客" class="headerlink" title="1.利用github action实现更新博客"></a>1.利用github action实现更新博客</h2><p>   由于随着hexo框架下的博客文件越来越大，利用hexo clean/g/d三步代码会使得上传至服务器越来越慢，利用github action对博客进行处理后相对简便，下为git bush 下对博客进行更新的代码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m &quot;更新内容&quot;</span><br><span class="line">git push origin main #由于github的仓库主branch改成了main</span><br></pre></td></tr></table></figure><h2 id="2-typora常用博客语法"><a href="#2-typora常用博客语法" class="headerlink" title="2.typora常用博客语法"></a>2.typora常用博客语法</h2><h3 id="1-插入图片"><a href="#1-插入图片" class="headerlink" title="1.插入图片"></a>1.插入图片</h3><p>格式-&gt;图像-&gt;设置图片根目录-&gt;选取<strong>source</strong>作为根目录</p><p><img src="/imgs/image-20220913214000340.png" alt="image-20220913214000340"></p><p>利用qq截图可直接粘粘在文章中，图片文件会自动存在imgs文件夹中</p><h3 id="2-添加封面"><a href="#2-添加封面" class="headerlink" title="2.添加封面"></a>2.添加封面</h3><p>在文章顶部添加封面cover对应图片的URL链接保存提交即可</p><p><img src="/imgs/image-20220913220322196.png" alt="image-20220913220322196"></p><h3 id="3-文章顶部图"><a href="#3-文章顶部图" class="headerlink" title="3.文章顶部图"></a>3.文章顶部图</h3><p>  在文章顶部添加top-img:及其对应URL链接即可</p><p>  注意在冒号后要加一个空格，不然会报错</p>]]></content>
     
