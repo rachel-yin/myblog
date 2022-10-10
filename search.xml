@@ -8,7 +8,7 @@
       <link href="/undefined/dfe10bb5.html"/>
       <url>/undefined/dfe10bb5.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="1-基本概念"><a href="#1-基本概念" class="headerlink" title="1.基本概念"></a>1.基本概念</h1><h2 id="1-DAG"><a href="#1-DAG" class="headerlink" title="1.DAG"></a>1.DAG</h2><p>​    DAG(<strong>Directed Acyclic Graph)</strong>，中文名”有向无环图”。”有向”指的是有方向，准确的说应该是同一个方向，”无环”则指够不成闭环。</p><p>​    <img src="../imgs/image-20221010200716984.png" alt="image-20221010200716984"></p><p>​    <strong>tip：</strong>在DAG中，如图所示，方块（vertex）表示的是一笔笔的交易，而虚线、（edge）表示的是验证关系。每一个新加入的交易都需要挑两个没有被验证过的交易来验证这两个交易的合法性。方块6就是还未被验证过的交易，也称为tip。tip是DAG最重要的概念。</p>]]></content>
       
       
       <categories>
