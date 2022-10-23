@@ -4,7 +4,7 @@
   <url>
     <loc>http://example.com/manifest.json</loc>
     
-    <lastmod>2022-10-21</lastmod>
+    <lastmod>2022-10-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +13,7 @@
   <url>
     <loc>http://example.com/undefined/a1e6876a.html</loc>
     
-    <lastmod>2022-10-21</lastmod>
+    <lastmod>2022-10-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,7 +22,7 @@
   <url>
     <loc>http://example.com/undefined/dfe10bb5.html</loc>
     
-    <lastmod>2022-10-21</lastmod>
+    <lastmod>2022-10-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,7 +31,16 @@
   <url>
     <loc>http://example.com/undefined/dd39fbaf.html</loc>
     
-    <lastmod>2022-10-21</lastmod>
+    <lastmod>2022-10-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/undefined/fbe62a7c.html</loc>
+    
+    <lastmod>2022-10-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -40,7 +49,7 @@
   <url>
     <loc>http://example.com/undefined/1f934f99.html</loc>
     
-    <lastmod>2022-10-21</lastmod>
+    <lastmod>2022-10-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -49,7 +58,7 @@
   <url>
     <loc>http://example.com/categories/index.html</loc>
     
-    <lastmod>2022-10-21</lastmod>
+    <lastmod>2022-10-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -58,7 +67,7 @@
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2022-10-21</lastmod>
+    <lastmod>2022-10-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -66,7 +75,14 @@
   
   <url>
     <loc>http://example.com/tags/butterfly%E9%AD%94%E6%94%B9%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2022-10-21</lastmod>
+    <lastmod>2022-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/butterfly/</loc>
+    <lastmod>2022-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -75,28 +91,28 @@
   
   <url>
     <loc>http://example.com/categories/buttfly%E9%AD%94%E6%94%B9%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2022-10-21</lastmod>
+    <lastmod>2022-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/stitp%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2022-10-21</lastmod>
+    <lastmod>2022-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2022-10-21</lastmod>
+    <lastmod>2022-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/%E6%B5%8B%E8%AF%95%E9%9B%86/</loc>
-    <lastmod>2022-10-21</lastmod>
+    <lastmod>2022-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
